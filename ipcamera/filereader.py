@@ -22,7 +22,7 @@ class FileReader(object):
 
     def parse_info(self, line):
         camera_structure = namedtuple("camera_structure", "name id password ip")
-        name = line[0]
+        name = line[0].replace("\ufeff", "")
         id = line[1]
         password = line[2]
         ip = line[3].replace("\r\n", "")
