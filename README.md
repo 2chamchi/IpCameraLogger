@@ -15,4 +15,5 @@ foo.exe -file="../resources/bar.txt"
 
 3. if your OS is linux,
 ex)
-change to linux build version from files(ffmpeg.exe, ffprobe.exe, ffplay.exe -  it was windows build version) 
+change to linux build version from files
+(ffmpeg.exe, ffprobe.exe, ffplay.exe -  it was windows build version) 
